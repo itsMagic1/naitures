@@ -119,9 +119,7 @@
     }
 
     &__cta {
-        position: absolute;
-        top: 50%;
-        left: 50%;
+        @include center-absolute;
         transform: translate(-50%, -50%);
         width: 90%;
         text-align: center;
